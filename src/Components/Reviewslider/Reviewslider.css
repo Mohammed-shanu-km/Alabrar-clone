@@ -1,0 +1,131 @@
+.slides-main {
+  width: 100%;
+  /* height: 400px; */
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.p1 p {
+  text-align: left;
+
+  color: #0e3d4d;
+
+  margin-top: 20px;
+  font-weight: 500;
+
+  font-size: 16px;
+
+  font-family: 'Poppins', sans-serif;
+
+  line-height: 1.5;
+}
+
+.h1 h1 {
+  text-align: left;
+  font-size: 4rem;
+
+  color: #0e3d4d;
+  font-weight: 600;
+}
+.right-imagess {
+  position: relative;
+}
+.right-imagess img {
+  width: 350px;
+  height: 350px;
+  border-radius: 0% 50% 50% 50%;
+  z-index: 10;
+}
+.icons-review {
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  gap: 5px;
+}
+.stars {
+  color: #fdb609;
+}
+.rating p {
+  font-size: 16px;
+  color: #0e3d4d;
+  max-width: 70%;
+}
+.round {
+  height: 130px;
+  width: 130px;
+  color: #d8ec81;
+}
+.round-div {
+  position: absolute;
+  bottom: 5%;
+  left: -15%;
+}
+@media(max-width:640px){
+  body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .slides-main {
+    width: 100%;
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* height: 796px; */
+    
+   
+}
+.h1 h1 {
+  /* text-align: left; */
+  font-size: 4rem;
+  color: #0e3d4d;
+  font-weight: 600;
+  text-align: center;
+}
+.p1 p {
+  /* text-align: left; */
+  color: #0e3d4d;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+.icons-review {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.right-imagess img {
+  width: 290px;
+  height: 300px;
+  border-radius: 0% 50% 50% 50%;
+  z-index: 10;
+  object-fit: cover;
+}
+.right-imagess {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+.round {
+  height: 68px;
+  width: 178px;
+  color: #d8ec81;
+}
+.each-person {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 35px;
+}
+
+}
+
+

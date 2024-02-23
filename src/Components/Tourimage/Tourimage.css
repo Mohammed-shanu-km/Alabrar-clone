@@ -1,0 +1,161 @@
+.tourimage-main{
+    width: 100%;
+}
+.tourimage-container{
+    padding: 50px 0px 100px 0px;
+    
+}
+.first-image-section{
+   
+    width: 50%;
+    background: url('../Assets.md/pexels-silvia-trigo-2675268.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-image-section{
+    
+    width: 50%;
+    background: url('../Assets.md//pexels-oday-hazeem-106606.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 50px 50px 50px 50px; */
+}
+.second-content{
+    display: grid;
+    gap: 10px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.second-content h2{
+    font-size: 3rem;
+    color: #d9ed82;
+    font-weight: 400;
+    
+}
+.second-content h1{
+    font-size: 3.5rem;
+    color: white;
+}
+.second-content p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    opacity: 0.9;
+    color: gray;
+}
+.icons-and-para-main{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.boxes-main{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+}
+.i-images{
+    display: flex;
+}
+.box-para-1{
+    display: grid;
+    gap: 10px;
+}
+.box-para-1 h1{
+    font-size: 2rem;
+    color: white;
+    
+}
+.box-para-1 p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    opacity: 0.9;
+    color: gray;
+}
+.sal{
+    height: 45px;
+    width: 45px;
+    color: #d9ed82;
+}
+.opacity{
+   
+    width: 100%;
+    
+    background-color: #040d17;
+    opacity: 0.9;
+}
+@media screen and (max-width: 640px) {
+    body {
+      overflow-x: hidden;
+      overflow: hidden;
+    }
+    .tourimage-container{
+        padding: 50px 0px 0px 0px;
+        
+    }
+    .i-images{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    .first-image-section{
+   
+        width: 100%;
+        background: url('../Assets.md/pexels-silvia-trigo-2675268.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    .second-image-section {
+        width: 100%;
+        background: url(http://localhost:3000/static/media/pexels-oday-hazeem-106606.f67176e….jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* padding: 50px 50px 50px 50px; */
+    }
+    .second-content {
+        display: grid;
+        gap: 10px;
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .icons-and-para-main {
+        display: grid;
+        gap: 25px;
+        grid-template-columns: auto;
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    .second-content h1 {
+        font-size: 3rem;
+        color: white;
+        font-weight: 500;
+    }
+    .box-para-1 h1 {
+        font-size: 2rem;
+        color: white;
+        font-weight: 500;
+    }
+    .second-content h2 {
+        font-size: 2.5rem;
+        color: #d9ed82;
+        font-weight: 400;
+    }
+}
+
+
+
+
+

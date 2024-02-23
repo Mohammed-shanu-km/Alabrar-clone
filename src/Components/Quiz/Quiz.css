@@ -1,0 +1,52 @@
+.quiz-main{
+   
+    display: grid;
+  
+    
+    margin-top: 50px;
+    
+
+
+}
+.oneis{
+    display: flex;
+    height: 80px;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px ;
+    gap: 100px;
+    margin-top: 20px;
+  
+}
+.oneis h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.fay{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    background-color: none;
+   
+}
+@media screen and (max-width: 640px) {
+    body {
+      overflow-x: hidden;
+      overflow: hidden;
+    }
+    .oneis{
+        display: flex;
+        height: 80px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px ;
+        gap: 100px;
+        margin-top: 20px;
+      
+    }
+}

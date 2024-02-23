@@ -1,0 +1,44 @@
+.image-gallery-main{
+    width: 100%;
+   
+
+}
+.image-gallery-container{
+    padding: 0px 0px 100px 0px;
+    display: flex;
+}
+.images img{
+    height: 400px;
+    width: 380px;
+    object-fit: cover;
+
+}
+.images img:hover{
+   color: red;
+}
+.image-galu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+@media screen and (max-width: 640px) {
+    body {
+      overflow-x: hidden;
+      overflow: hidden;
+    }
+    .image-galu {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .images img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .image-gallery-container{
+        padding: 0px 0px 1px 0px;
+        display: flex;
+    }
+}

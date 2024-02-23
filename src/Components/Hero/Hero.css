@@ -1,0 +1,150 @@
+.hero-page-main {
+  width: 100%;
+  background: linear-gradient(rgba(51, 51, 51, 0), rgba(0, 0, 0)),
+    url("../Assets.md//hero-section-bg.0b34de36.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.hero-continer {
+  padding: 170px 150px 80px 150px;
+}
+.hero-page-content {
+  display: grid;
+  gap: 40px;
+}
+.hero-btn button {
+  appearance: none;
+  background-color: #d9ed82;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 18px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #2a5655;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 20px;
+  padding: 10px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.hero-heading h1 {
+  /* font-size: 6rem; */
+  color: white;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+}
+.hero-para p {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+
+  line-height: 1.5;
+}
+.hero-line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  margin-top: 50px;
+}
+.hero-below {
+  height: 150px;
+  width: 100%;
+
+  margin-top: 10px;
+}
+.hero-below {
+  display: flex;
+  justify-content: space-between;
+}
+.boxes {
+  display: grid;
+  gap: 10px;
+}
+.boxes-1{
+  display: grid;
+  gap: 10px;
+
+}
+.number h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+.below-heading p {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+
+  line-height: 1.5;
+}
+.below-para p {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+
+  line-height: 1.5;
+}
+@media(max-width:640px){
+  body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+ 
+  .hero-continer {
+    padding: 150px 30px 100px 30px;
+}
+.hero-heading h1{
+  font-size: 4rem;
+
+}
+.hero-page-content {
+  display: grid;
+  gap: 20px;
+}
+.hero-below {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.boxes {
+  display: none;
+ 
+}
+.yellow-single-3 {
+  display: grid;
+  gap: 15px;
+  text-align: center;
+}
+.h1 h1 {
+  text-align: left;
+  font-size: 4rem;
+  color: #0e3d4d;
+  font-weight: 600;
+  text-align: center;
+}
+.p1 p {
+  /* text-align: left; */
+  color: #0e3d4d;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+}

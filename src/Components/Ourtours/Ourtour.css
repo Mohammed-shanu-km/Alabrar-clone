@@ -1,0 +1,198 @@
+.out-tour-main{
+    width: 100%;
+    padding: 100px 80px 100px 80px;
+}
+.tour-contents{
+    display: grid;
+    
+text-align: center;
+
+}
+.tour-contents h2{
+    font-size: 3rem;
+    color: #d9ed82;
+    font-weight: 400;
+    text-align: center;
+    
+}
+.tour-contents h1{
+    font-size: 5rem;
+    font-weight: 500;
+    color: black;
+}
+.tour-contents p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    opacity: 0.9;
+    color: gray;
+}
+.card-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 80px;
+}
+.card-main{
+    height: 640px;
+    width: 400px;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+    border-radius: 20px;
+}
+.card-image img{
+    height: 450px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.white-content{
+    height: 59px;
+    width: 265px;
+    background-color: white;
+    position: absolute;
+    margin-top: -63px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 0px 10px 0px 0px;
+
+}
+.first-1{
+    display: flex;
+    gap: 8px;
+}
+.day{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    opacity: 0.9;
+    color: gray;
+    padding-top: 16px;
+}
+.card-below{
+  margin-top: 10px;
+  display: grid;
+  padding-left: 20px;
+  gap: 10px;
+  
+}
+.under-lines{
+    padding-left: 20px;
+    width: 93%;
+    height: 0.1px;
+    background-color:#0e3d4d ;
+    opacity: 0.7;
+   
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+    align-items: center;
+} 
+
+
+.card-below h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.card-below h2{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    opacity: 0.9;
+    color: gray;
+
+}
+.soo{
+    display: flex;
+}
+.rupess p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    opacity: 0.9;
+    color: gray;
+
+}
+.rupess h1{
+    font-size: 16px;
+    color:#0e3d4d ;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  
+    line-height: 1.5;
+
+}
+.rupess h1{
+    font-size: 2.3rem;
+    color: black;
+    font-weight: 500;
+}
+.yoo h2{
+    font-size: 18px;
+    color:#d9ed82 ;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  
+    line-height: 1.5;
+    font-weight: 500;
+
+}
+@media screen and (max-width: 640px) {
+    body {
+      overflow-x: hidden;
+      overflow: hidden;
+    }
+    .out-tour-main{
+        width: 100%;
+        padding: 50px 30px 50px 30px;
+       
+    }
+    .card-image img {
+        height: 450px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        position: relative;
+    }
+    .card-section {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .card-main {
+        height: 640px;
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+    }
+    .tour-contents {
+        display: grid;
+        text-align: center;
+        gap: 10px;
+    }
+    .tour-contents h1 {
+        font-size: 3rem;
+        font-weight: 500;
+        color: black;
+        line-height: 1.2;
+    }
+    .tour-contents h2 {
+        font-size: 2.5rem;
+        color: #d9ed82;
+        font-weight: 400;
+        text-align: center;
+    }
+
+}

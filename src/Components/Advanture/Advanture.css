@@ -1,0 +1,106 @@
+.adv-container{
+    padding: 100px 150px 100px 150px;
+    padding-bottom: 30%;
+
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-section{
+    display: grid;
+    gap: 40px;
+}
+.left-btn button{
+    appearance: none;
+    background-color: #d9ed82;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 18px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #2a5655;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    padding: 10px 60px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+
+}
+.right-image img{
+    height: 300px;
+    width: 450px; 
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 70px;
+}
+.left-heading h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #0e3d4d;
+    line-height: 1.2;
+   
+    line-height: 50px;
+}
+.left-para p{
+    font-size: 16px;
+  color:#0e3d4d ;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+
+  line-height: 1.5;
+}
+@media(max-width:640px){
+    body{
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+    .adv-container{
+        padding: 0px 30px 50px 30px;
+        padding-bottom: 30%;
+    
+    }
+    .left-heading h1 {
+        font-size: 4rem;
+        font-weight: 600;
+        color: #0e3d4d;
+        line-height: 1.2;
+        line-height: 50px;
+        text-align: center;
+    }
+    .main-section {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .left-para p {
+        font-size: 16px;
+        color: #0e3d4d;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .left-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .right-image img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: 50px;
+        
+    }
+}
